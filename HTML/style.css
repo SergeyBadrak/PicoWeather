@@ -1,0 +1,63 @@
+.color-green {
+    color: #00C44B;
+  }
+  .color-blue {
+    color: #006BFD;
+  }
+  .color-cyan {
+    color: #00C3FD;
+  }
+  .color-orange {
+    color: #FFB100;
+  }
+
+  body {
+    background-color: #EFF2F7;
+  }
+  .frame {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .page-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .w-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+    padding: 30px 25px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+  .w-card__header {
+    display: flex;
+    align-items: center;
+  }
+  .w-card__ico {
+    width: 30px;
+    text-align: center;
+  }
+  .w-card__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+  .w-card__body {
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 50px;
+  }
+
+  .text-infobar {
+    font-size: 14px;
+    color: #707070;
+  }
